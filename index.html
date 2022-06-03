@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+	<script src="https://kit.fontawesome.com/87ff0eb477.js" crossorigin="anonymous"></script>
+	<title>Perfect Gofra</title>
+</head>
+<body>
+
+
+	<nav class="nav">
+		<div class="container">
+			<div class="logo">
+				<img src="./img/logo_fayz.svg">
+	<!-- 			<div class="company_name">
+					<h1>Perfect Gofra</h1>
+				</div> -->
+			</div>
+			<input type="checkbox" id="check">
+			<label for="check">
+				<i class="fas fa-bars" id="burger" style="margin-top: 50px;"></i>
+				<i class="fas fa-times" id="no" style="margin-top: 50px;"></i>
+			</label>
+			<ul class="navul">
+				<li><a href="#home">Главная</a></li>
+				<li><a href="#history">О нас</a></li>
+				<li><a href="#catalog">Каталог</a></li>
+				<li><a href="#service">Услуги</a></li>
+				<li><a href="#products">Продукты</a></li>
+				<li><a href="#contact">Контакты</a></li>
+			</ul>
+			<div id="icon"></div>			
+		</div>
+
+	</nav>
+
+
+	<div class="wrapper">
+		<div class="carousel" data-carousel id="home">
+			<button class="carousel__button prev" data-carousel-button="prev">&#8656;</button>
+			<button class="carousel__button next" data-carousel-button="next">&#8658;</button>
+			<ul data-slides>
+				<li class="slide" data-active>
+					<img src="./img/s1.webp">
+				</li>
+				<li class="slide">
+					<img src="./img/s2.webp">
+				</li>
+				<li class="slide">
+					<img src="./img/s3.webp">
+				</li>
+<!-- 				<li class="slide">
+					<img src="./i/carousel4.jpg">
+				</li>
+				<li class="slide">
+					<img src="./i/carousel5.jpg">
+				</li> -->
+			</ul>
+		</div>
+	</div>
+  
+	<div id="history" class="history">
+		<div class="container">
+			<div class="history__title">
+				<h2 style="text-align: center;">Наша История</h2>
+			</div>
+			<div class="history__content">
+				<div class="history__line">В 2002 году было создано ООО “Fayz Gofra Production”, которое специализировалось на выпуске 2-х и 3-х слойных гофрокоробов.</div>
+<!-- 				<div class="history__line">В 2009 году в нашем производстве был значительно изменен рабочий режим (КПД повысилось в 2 раза) и обновлена вся линия и оборудование, после чего появилась возможность выпускать 5-слойные гофрокороба.</div>
+				<div class="history__line"> За свое <script>document.write(new Date().getFullYear() - Number(2002))</script>-летнее существование наше производство значительно расширилось, а продукция стала отвечать всем стандартам на национальном и мировом рынке.</div>
+				<div class="history__line">В 2019 году мы произвели крупную покупку нового оборудования, соответствующего мировым стандартам, а также была расширена в два раза территория фабрики. Объем производственных мощностей вырос в 2 раза и составил порядка 150 000 кв. м в сутки</div> -->
+				<div class="history__line">
+					После ряда крупных реформ, включавшее обновление старого, закупку нового оборудования, соответствующего мировым стандартам, мы получили возможность выпускать 5-ти и 7-ти слойные гофрокороба. Также мы расширили территорию фабрики в два раза. В совокупности эти изменения позволили нам удвоить объем производственных мощностей, который составил порядка 150 000 кв м. в сутки.
+				</div>
+				<div class="history__line"><b>Богатый опыт и современное оборудование позволяет нам выпускать гофрокороба и гофротару различных размеров, тональностей и качества, и помогает нам подстраиваться под любой каприз и пожелание клиента.
+				</b></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="container">
+		<div id="catalog" class="catalog">
+			<div class="catalog__title">
+				<h1>Каталог</h1>
+			</div>
+			<div class="catalog__items">
+				<div class="catalog__item">
+					<div class="catalog__item__title">
+						<h2>2 Слоя</h2>
+					</div>
+					<img src="./img/c1bg.webp">
+					<div class="catalog__item__data">
+						<h3>2-х слойный гофрокартон – состоит из одного плоского и одного гофрированного слоев.
+
+2-х слойный гофрокартон широко используется для изготовления вкладышей в гофроящики, а также для производства упаковки небольших товаров и рекламных POS-материалов.</h3>
+					</div>
+				</div>
+				<div class="catalog__item">
+					<div class="catalog__item__title">
+						<h2>3 Слоя</h2>
+					</div>
+					<img src="./img/c2bg.webp">
+					<div class="catalog__item__data">
+						<h3>3-х слойный гофрокартон – состоит из двух плоских и одного гофрированного слоя.
+
+3-х слойный гофрокартон используется для производства тары и вспомогательных упаковочных средств, предназначенных для упаковки продукции, не воспринимающей статическую нагрузку.</h3>
+					</div>
+				</div>
+			</div>
+			<div class="catalog__items">
+				<div class="catalog__item">
+					<div class="catalog__item__title">
+						<h2>5 Слоев</h2>
+					</div>
+					<img src="./img/c3bg.webp">
+					<div class="catalog__item__data">
+						<h3>5-слойный гофрокартон – состоит трех плоских (двух наружных и одного внутреннего) и двух гофрированных слоев.
+
+5-слойный гофрокартон применяется для изготовления транспортной упаковки продукции, которой необходима высокая степень защиты от механических повреждений, а также для производства крупногабаритной гофротары. 5-слойный гофрокартон используют для изготовления прочной и жесткой тары.</h3>
+					</div>
+				</div>
+				<div class="catalog__item">
+					<div class="catalog__item__title">
+						<h2>7 Слоев</h2>
+					</div>
+					<img src="./img/c4bg.webp">
+					<div class="catalog__item__data">
+						<h3>Семислойный гофрокартон отличается высокой прочностью, поэтому его можно 
+использовать для упаковки крупногабаритных товаров, запчастей, 
+а также продукции в стеклянных бутылках.</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="background__line"></div>
+
+	<div class="service" id="service">
+		<h1 class="service__title">Услуги</h1>
+		<div class="container">
+			<div class="service__items">
+				
+				<div class="service__item">
+					<img src="./img/u1.png">
+					<div class="service__text">Подготовка дизайна</div>
+				</div>
+
+				<div class="service__item">
+					<img src="./img/u2.png">
+					<div class="service__text">Подготовка образцов</div>
+				</div>
+
+				<div class="service__item">
+					<img src="./img/u3.png">
+					<div class="service__text">Производство</div>
+				</div>
+				<div class="service__item">
+					<img src="./img/u4.png">
+					<div class="service__text">Доставка</div>
+				</div>
+				<div class="service__item">
+					<img src="./img/u5.png">
+					<div class="service__text">Консультация</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+
+	<div class="background__line"></div>
+
+	<div id="products" class="products">
+		<div class="container">
+			<div class="product__title">
+				<h1>Продукты</h1>
+			</div>
+		</div>
+	<!-- <div class="background__line" style="margin: 50px 0 50px 0;"></div> -->
+
+			<!-- <div class="product__items"> -->
+<!-- 				<div class="product__item">
+					<div class="product__item__title">
+						<h2>2 Слоя</h2>
+					</div>
+					<img src="./img/c1bg.webp">
+					<div class="product__item__data">
+						<h3>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h3>
+					</div>
+				</div>
+				<div class="product__item">
+					<div class="product__item__title">
+						<h2>3 Слоя</h2>
+					</div>
+					<img src="./img/c2bg.webp">
+					<div class="product__item__data">
+						<h3>BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB</h3>
+					</div>
+				</div>
+				<div class="product__item">
+					<div class="product__item__title">
+						<h2>5 Слоев</h2>
+					</div>
+					<img src="./img/c3bg.webp">
+					<div class="product__item__data">
+						<h3>CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</h3>
+					</div>
+				</div>
+				<div class="product__item">
+					<div class="product__item__title">
+						<h2>7 Слоев</h2>
+					</div>
+					<img src="./img/c4bg.webp">
+					<div class="product__item__data">
+						<h3>dddddddddddddddddddddddddddddddddddddddddddddddd</h3>
+					</div>
+				</div> -->
+				<div class="container">
+					<div class="product__item">
+						<div class="product__image">
+							<img src="./img/p1.webp">
+						</div>
+						<div class="product__content">
+							<h3 class="product__content__text">Гофра тара используются почти во всех областях производства.
+Современная упаковка несет не только защитную и информационную функции, в нынешнее время упаковка  — это часть продукта, одна из составляющих его имиджа на рынке. Ярко оформленные гофра коробки разнообразных форм все больше и больше заполняют прилавки магазинов. Мы изготавливаем коробки из однослойного картона и многослойного гофрированного картона с флексо и офсетной печатью.</h3>
+						</div>
+					</div>
+				</div>
+				<div class="background__line"></div>
+				<div class="container">
+					<div class="product__item">
+						<div class="product__content">
+							<div>
+								<h3 class="product__content__text">Весь процесс производства протекает в нашей фабрике на собственном оборудовании. Именно из-за этого клиенты получают свои заказы в короткий срок по доступным ценам.
+								</h3>
+								<br>
+								<h3>
+								<ul class="product__content__text">
+									<li>•   Дизайна и макета</li>
+									<li>•   Офсетные формы</li>
+									<li>•   Офсетная и/или Флексо печать</li>
+									<li>•   Производство двух или многослойного гофрокартона</li>
+									<li>•   Каширование (Ламинация) цветного слоя на гофрокартон</li>
+									<li>•   Высечка, Лакирование, Склейка, Ламинация пленкой</li>		
+								</ul>
+								</h3>
+							</div>
+						</div>
+						<div class="product__image">
+							<img src="./img/p2.webp">
+						</div>
+					</div>
+				</div>
+				<div class="background__line"></div>
+				<div class="container">
+					<div class="product__item">
+						<div class="product__image">
+							<img src="./img/p3.webp">
+						</div>
+						<div class="product__content">
+							<h3 class="product__content__text">Упаковка из картона до настоящего времени остается самым популярным видом тары. Этому способствует доступная цена материала, его универсальность, легкость, экологичность. Для создания такой тары используется бумажное сырье, которое не наносит вреда окружающей среде и легко утилизируется. Но основное качество картонных коробок — это возможность хранения и логистика грузов без потери их физических свойств. Только покупка хорошей гофроупаковки дает гарантию безопасности продукции при транспортировке. Архивные короба помогут структурированно хранить документацию.</h3>
+						</div>
+					</div>
+				</div>
+				<div class="background__line"></div>
+				<div class="container">
+					<div class="product__item">
+						<div class="product__content">
+							<h3 class="product__content__text">Картонные коробки — это универсальное решение для упаковки
+Картонную тару используют в различных отраслях промышленности: начиная с пищевой до строительной. Упаковка продуктов питания, одежды и обуви, бытовой химии и фармацевтической продукции, строительных материалов и мебели осуществляется именно с помощью картонной тары. 
+
+Преимущества нашей компании — это оперативная обработка информации от клиента высококвалифицированными специалистами, высокое качество продукции и своевременное ее предоставление. Наши клиенты никогда не жалуются на сроки, мы не ставим клиентов в неудобное положение, а обеспечиваем стабильные поставки гофротары.</h3>
+						</div>
+						<div class="product__image">
+							<img src="./img/p4.webp">
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+
+	</div>
+
+	<div class="background__line" style="margin: 50px 0 50px 0;"></div>
+
+
+
+
+
+
+
+
+
+<div style="background: white; padding-bottom: 20px" id="contact">
+			<div class="container" style="padding: 20px 0 20px 0;">
+				<h1 style="text-align: center;">Контакты</h1>
+				<div class="contact">
+					<div class="contact__info">
+						<div class="contact__map">
+							<h3>Мы на карте</h3>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7133.835440986096!2d69.31098417689047!3d41.25644455169191!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a33659fb778cef2!2sFayz%20Gofra%20Production!5e0!3m2!1sru!2s!4v1650094832024!5m2!1sru!2s" width="80%" height="400" style="border:3;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<div class="contact__address">
+							<div class="address detail">
+								<h2>Адрес офиса:</h2>
+								<i class="fa-solid fa-location-dot"></i>
+								<p>Узбекистан, Ташкент</p>
+								<p>Мирабадский р-н, ул. Кичик Мирабад, 2 проезд, дом 5</p>
+							</div>
+							<div class="address detail">
+								<h2>Адрес Производства</h2>
+								<i class="fa-solid fa-location-dot"></i>
+								<p>Узбекистан, Ташкент</p>
+								<p> Мирабадский р-н, ул. Файзиабад 43</p>
+							</div>
+							<div class="phone detail">
+								<h3>Контакты</h3>
+								<i class="fa-solid fa-phone"></i>
+								<p>Телефон: (99878) 147 80 80</p>
+								<p>Факс: (99871) 283 04 66</p>
+							</div>
+							<div class="email detail">
+								<h3>Email</h3>
+								<i class="fa-solid fa-envelope"></i>
+								<p>info@gofra.uz</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+					<div class="contact__form">
+						<div>
+							<h2>Напишите нам</h2>
+							<p style="padding-bottom: 20px;">Вы можете написать нам по любому вопросу и мы ответить вам в течении 24 часов</p>
+						</div>
+						<div class="inputer" style="width: 100%;display: flex;justify-content: space-around;">
+							<div class="form_inputs">
+								<div class="input__box">
+								 	<label for="name">Имя</label><br>
+									<input type="text" id="name" name="name" placeholder="   mr.Client"><br>
+								</div>
+								<div class="input__box">
+								  	<label for="contact">Контакт</label><br>
+									<input type="text" id="contact" name="contact" placeholder="   п. ex@mail.com"><br>
+								</div>
+								<div class="input__box">
+									<label for="theme">Тема</label><br>
+									<input type="text" id="theme" name="theme" placeholder="   п. Коробки для Client"><br>
+								</div>
+							</div>
+							<div class="input__box">
+						 	 	<label for="message">Сообщение</label><br>
+								<textarea type="text" id="message" name="message" placeholder="   Текст..."></textarea><br>
+							</div>		
+						</div>
+					</div>
+
+			</div>
+		</div>
+
+
+<!-- 	<div id="contact">
+		<div id="form">
+			<div class="container">
+				<div class="form__title">
+					<h2>Contact Us</h2>
+				</div>
+				<div class="form">
+					<div class="form__line">
+						<h6>Name</h6>
+						<input type="text" class="form__input">
+					</div>
+					<div class="form__line">
+						<h6>Contact</h6>
+						<input type="text" class="form__input">
+					</div>
+					<div class="form__line">
+						<h6>Message</h6>
+						<textarea class="form__message"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="send">
+				<button class="send__button">Send</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container"></div>
+	</div> -->
+
+	<div style="background-color: #ad936d">
+		<div class="container" style="background-color: #ad936d">
+			<h3 style="text-align: center; padding: 10px 0 0 0">Perfect Gofra Production.</h3>
+			<p style="text-align: center; padding: 10px 0 0 0">Все права защищены © 2012 - <script>document.write((new Date()).getFullYear())</script></p>
+			<footer class="footer" style="margin: 10px">
+<!-- 				<i class="fa-brands fa-facebook ani-icon"></i>
+				<i class="fa-brands fa-twitter ani-icon"></i>
+				<i class="fa-brands fa-telegram ani-icon"></i>
+				<i class="fa-brands fa-instagram ani-icon"></i> -->
+			</footer>
+		</div>
+	</div>
+	<script type="text/javascript" src="./script.js"></script>
+
+</body>
+</html>
