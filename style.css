@@ -112,6 +112,10 @@ label #burger, label #no {
 }
 .slide {
 	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 	inset: 0;
 	opacity: 0;
 	transition: .2s opacity ease-in-out;
@@ -365,6 +369,7 @@ label #burger, label #no {
 	height: 100%;
 }
 .input__button {
+	text-align: center;
 	color: white;
 	background-color: #efaa49;
 	transition: .2s;
