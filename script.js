@@ -83,7 +83,7 @@ function sendForm(){
 	  headers: {'Content-Type': 'application/json'},
 	  body: JSON.stringify(data)
 	}).then(res => {
-	  console.log(res);
+	  alert("Сообщение отпралено");
 	}).catch(err => {
 		console.log(err);
 		alert("Возникла неизвестная ошибка. Пожалуйста, попробуйте заново");
