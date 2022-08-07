@@ -78,12 +78,12 @@ function sendForm(){
 	if(!data.contact) {alert("Контактные даннык не могут быть пустыми"); return};
 	if(!data.theme) {alert("Тема не может быть пустой"); return};
 	if(!data.message) {alert("Сообщение не может быть пустым"); return};
-	fetch("http://localhost:3000", {
+	fetch("https://node-mail-gofra.herokuapp.com/", {
 	  method: "POST",
 	  headers: {'Content-Type': 'application/json'},
 	  body: JSON.stringify(data)
 	}).then(res => {
-	  alert("Сообщение отправлено")
+	  console.log(res);
 	}).catch(err => {
 		console.log(err);
 		alert("Возникла неизвестная ошибка. Пожалуйста, попробуйте заново");
